@@ -1,0 +1,128 @@
+body {
+    margin: 0; 
+    text-align: justify; 
+    
+    background-image: url('bg-img.jpeg');
+
+    /* background-color: rgb(85, 85, 253); */
+    color: rgb(4, 4, 109);
+    /* background-image: url('bg-img.jpeg');
+    background-repeat: no-repeat;
+    background-blend-mode: lighten0; */
+}
+
+
+@media (min-width: 1020px) {
+    body{
+        background-image: url('bg-img.jpeg');
+
+    }
+    img {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    border: 3px solid rgb(6, 6, 145);
+    /* border-radius: 20px; */
+}
+#head {
+    font-size: 20px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    height: 40px;
+}
+marquee {
+    height: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 3px solid rgb(10, 10, 48);
+    background-color: rgb(8, 201, 235);
+    border-left: 0px;
+    border-right: 0px;
+    color: rgb(10, 10, 48);
+    text-shadow: 3px 3px 3px ;
+}
+p,div {
+    /* text-decoration: ; */
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px rgb(8, 201, 235);
+    opacity: 100%;
+}
+
+button {
+    padding: 5px;
+    border: 3px solid rgb(10, 10, 48);
+    background-color: rgb(8, 201, 235);
+    border-radius: 5px;
+    height: 30px;
+    /* margin-left: 35%; */
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+marquee:hover {
+    box-shadow: 0 7px 10px 0 rgb(10, 10, 48), 0 9px 20px 0 rgb(9, 9, 73);
+}
+
+.transbox:hover {
+    box-shadow: 0 3px 20px 0 rgb(5, 5, 78),0 9px 20px 0 rgb(9, 9, 73);;
+}
+
+img:hover {
+    /* box-shadow: ; */
+    /* box-shadow: 5px 5px 5px 3px darkblue; */
+    box-shadow: 0 7px 10px 0 rgb(10, 10, 48), 0 9px 20px 0 rgb(9, 9, 73);
+}
+button:hover {
+    background-color: rgb(10, 10, 48);
+    box-shadow: 0 7px 10px 0 rgb(10, 10, 48), 0 9px 20px 0 rgb(9, 9, 73);
+}
+button:focus {
+    background-color: rgb(10, 10, 48);
+    border: rgb(8, 201, 235);
+}
+
+#pdf{
+    width: auto;
+    align-items: center;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+button.margin-right {
+    margin-right: 20px;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: aliceblue;
+    border: 1px solid rgb(10, 10, 51);
+    opacity: 0.6;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bolder;
+}
